@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 134px;
+    background-image: url(assests/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white ;
+}
+
+.ad1   {
+    font-size: 0.75rem;
+    color:#cccc;
+    margin-left:15px;
+}
+.ad2{
+    font-weight: 700;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 55vw;
+    /* width: 670px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2px;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.options{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E6E6E6;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.button{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffce00
+}
+.search-bar{
+    height: 36.5px;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+span{
+    font-size: 0.75rem;
+}
+.nav-sec{
+    font-weight: 700;
+}
+.cart {
+    height: 40px;
+    width: 40px;  
+}
+.shop  {
+    font-weight: 700;  
+}
+
+
+.panel {
+    background-color: #222f3d;
+    height: 30px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding-left: 15px;
+    width: 60px;
+}
+.ops{
+    width: 930px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ops a {
+    color: white;
+    text-decoration: none;
+}
+.hero-sec{
+    height: 350px;
+    background-image: url(assests/bg-image.jpg);
+    background-size: cover;
+   
+}
+.shop-sec{
+    background-color: rgb(241, 170, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    margin-bottom: 20px;
+    background-color: white;
+     padding : 20px 0px 15px;
+}
+.box-img{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 14px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+a{
+    color: rgb(177, 19, 177);
+}
+.foot-msg{
+    background-color: #4d6a8a;
+    height: 50px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    height: 400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: left;
+    padding-top: 110px;
+}
+
+ul a{
+    color: #dddd;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+}
+ul p {
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    height: 50px;
+    width: 134px;
+    background-image: url(assests/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.policies{
+    border-top: 0.5px solid white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    padding-top: 15px;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    font-size: 0.85rem;
+     color: white;
+
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.contact p {
+    padding-top: 5px;
+}
+a:hover{
+ border-bottom: 0.5px solid white;
+}
+
